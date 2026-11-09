@@ -21,5 +21,9 @@
         android:id="@+id/nav_ajout"
         android:name="com.isetr.tp5app.ui.ajout.AjoutFragment"
         android:label="@string/menu_ajout"
-        tools:layout="@layout/fragment_ajout" />
+        tools:layout="@layout/fragment_ajout">
+        <action
+            android:id="@+id/action_ajout_to_liste"
+            app:destination="@id/nav_liste" />
+    </fragment>
 </navigation>
